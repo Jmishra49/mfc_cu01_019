@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid #000;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.box1 {
+  background-color: #ffcccb;
+  box-sizing: content-box; 
+}
+
+
+.box2 {
+  background-color: #add8e6;
+  box-sizing: border-box; 
+}
+
+
+.box3 {
+  background-color: #90ee90;
+  margin: 40px 10px;
+  padding: 10px 30px; 
+  border: 10px dashed #ff4500;
+}
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <p>Box 1: Content Box</p>
+      </div>
+      <div class="box box2">
+        <p>Box 2: Border Box</p>
+      </div>
+      <div class="box box3">
+        <p>Box 3: Default Box</p>
+      </div>
+</body>
+</html>

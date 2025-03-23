@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header & Fixed Footer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #3498db;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+        .content p {
+            font-weight: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Sticky Header</div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Vestibulum consectetur orci ac urna vestibulum, in congue odio faucibus.</p>
+        <p>Donec a magna eget velit fringilla lacinia.</p>
+        <p>Aliquam erat volutpat. Integer posuere tellus nec ex pharetra, in facilisis justo elementum.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p>Phasellus lacinia dui nec diam bibendum, eget venenatis purus aliquam.</p>
+        <p>Nam vehicula magna et felis facilisis, id dapibus nisl scelerisque.</p>
+        <p>Sed in risus ut justo accumsan efficitur.</p>
+        <p>Curabitur tincidunt felis nec orci posuere vehicula.</p>
+        <p>Praesent commodo neque ac massa hendrerit, at bibendum arcu accumsan.</p>
+    </div>
+    <div class="footer">Fixed Footer</div>
+</body>
+</html>
